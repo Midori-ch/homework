@@ -9,5 +9,10 @@ student_scores = {
         "John":[100,93,75,80],
         }
 
-#print score
+#count score
+tom_score = ((sum(student_scores['Tom'])) / 4)
+john_score = ((sum(student_scores['John'])) / 4)
 
+#print score
+print ("Average of Tom:%s" % (tom_score))
+print ("Average of John:%s" % (john_score))
